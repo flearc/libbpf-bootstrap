@@ -1,0 +1,10 @@
+[package]
+name = "minimal"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+libbpf-cargo = "0.25.0"
+
+[dependencies]
+libbpf-rs = "0.25.0"
